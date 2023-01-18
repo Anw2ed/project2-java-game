@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 500px;
+    height: 700px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+
+
+    /*code voor de ball geeft kleur en positie*/
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(9, 214, 56);
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 100000;
+
+    /* dit geeft de balken een kleur en positie*/
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+
+    /*dit maakt een gat waar de bal doorheenkan en waardoor je uiteindelijk punten kunt krijgen*/
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+/*maakt de achtergrond zwart*/
+body{background-color: black;}
